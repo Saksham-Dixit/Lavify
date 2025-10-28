@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Lavanya 💫</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      width: 100%;
+      background: url("lavs.jpeg") center/cover no-repeat fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Quicksand', sans-serif;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* dreamy blurred overlay */
+    
+
+    /* floating sparkles */
+    .sparkle {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      animation: float 8s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0); opacity: 1; }
+      50% { transform: translateY(-40px) rotate(180deg); opacity: 0.6; }
+    }
+
+    .sparkle:nth-child(1) { width: 6px; height: 6px; top: 10%; left: 25%; animation-delay: 0s; }
+    .sparkle:nth-child(2) { width: 8px; height: 8px; top: 30%; left: 80%; animation-delay: 1s; }
+    .sparkle:nth-child(3) { width: 5px; height: 5px; top: 70%; left: 40%; animation-delay: 2s; }
+    .sparkle:nth-child(4) { width: 7px; height: 7px; top: 50%; left: 10%; animation-delay: 3s; }
+    .sparkle:nth-child(5) { width: 10px; height: 10px; top: 80%; left: 70%; animation-delay: 4s; }
+
+    /* message container */
+    .message-box {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      padding: 50px 60px;
+      background: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+      color: #3a2b68;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      animation: fadeIn 2s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 38px;
+      color: #4a2e80;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #423a63;
+      line-height: 1.8;
+      text-align: justify;
+      white-space: pre-line;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: 'Pacifico', cursive;
+      color: #8c62d4;
+    }
+
+    @media (max-width: 600px) {
+      .message-box {
+        max-width: 90%;
+        padding: 30px 25px;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+  <div class="sparkle"></div>
+
+  <div class="message-box">
+    <h1>Happy Birthday, Lavanya 🎂✨</h1>
+    <p>
+Hi Lavanya,
+I know this might come as a surprise — maybe even a little shocking — but I really wanted to do something special for you. I’ve been thinking for a while about how to say all this, and even now, I can’t seem to find the perfect words.
+
+Maybe it’s better if I don’t say too much and just let this small gesture speak for itself. I just hope it brings a smile to your face, because that’s all I really wanted. I tried my best to make it something you’d genuinely like — something that feels a little personal, a little thoughtful.
+
+You’ve always had this calm yet bright energy about you — the kind that makes people feel comfortable without even trying. So, today, I just wanted to take a moment to appreciate that.
+
+No matter where life takes you, I hope you always keep that spark, that kindness, and that effortless charm you have.
+
+Wishing you the happiest birthday, Lavanya — may this year bring you new reasons to smile, moments you’ll cherish, and everything your heart quietly wishes for.
+
+Have a beautiful day, you truly deserve it. 🎂✨
+    </p>
+    <div class="footer">— Saksham</div>
+  </div>
+</body>
+</html>

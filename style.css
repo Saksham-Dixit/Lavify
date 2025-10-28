@@ -140,3 +140,18 @@ nav ul li{
 .btn:hover {
   background: #a58cff;
 }
+.play {
+  display: inline-block;
+  background: #7c5df7;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: sans-serif;
+  transition: background 0.3s;
+}
+.play:hover {
+  background: #a58cff;
+}
+
+
